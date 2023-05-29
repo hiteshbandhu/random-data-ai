@@ -5,6 +5,8 @@ openai.api_key = st.secrets['pass']
 
 st.header("Generate Random Data, Powered by AI !")
 
+st.set_page_config(page_title="RanData😶")
+
 extension = st.selectbox("Pick Extension",["JSON","CSV","MD"])
 columns = st.text_input("Enter Keys/Columns To Be Included : ")
 number = st.text_input("Enter Sample Size (<=100) : ")
