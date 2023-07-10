@@ -4,7 +4,7 @@ import os
 openai.api_key = st.secrets['pass']
 st.set_page_config(page_title="RanData😶")
 
-st.header("Generate Random Data, Powered by AI !")
+st.header("Generate Random Data, Powered by AI ! - Made By Hitesh Bandhu")
 
 
 
